@@ -1,9 +1,11 @@
+# Random Password Generator
+
 # A password, sometimes called a passcode, is a memorized secret, typically a string of characters, usually used to confirm the identity of a user.
 
 # Random module is used to perform the random generations. 
+import random
 
 import string
-import random
 
 def gen():
     s1 = string.ascii_uppercase  # All Upper case letters
