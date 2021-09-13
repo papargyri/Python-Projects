@@ -17,6 +17,7 @@ def gen():
 
     random.shuffle(s)
     password = ("".join(s[0:passlength]))
+    
     print(password)
 
 gen()
